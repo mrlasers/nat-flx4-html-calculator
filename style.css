@@ -1,11 +1,15 @@
-html,
-body {
-  height: 100%;
-  width: 100%;
+table {
+  border: 5px solid green;
 }
 
-table,
-th,
+th {
+  border: 1px solid red;
+  text-align: right;
+  font-weight: bold;
+}
+
 td {
-  border: 2px solid red;
+  border: 1px solid red;
+  text-align: center;
+  padding: 1em;
 }
